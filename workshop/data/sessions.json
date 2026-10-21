@@ -1,0 +1,421 @@
+{
+  "_note": "Sample data for the From Prompt to Agent workshop. Fictional sessions and speakers, not the official iGET 2026 program.",
+  "sessions": [
+    {
+      "id": "S01",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "Grand Ballroom",
+      "track": "Keynote",
+      "title": "Opening Keynote: The Road from Chatbots to Agents",
+      "speaker": "Dr. Maya Fernandes",
+      "tags": [
+        "agents",
+        "llm",
+        "keynote"
+      ],
+      "level": "All levels",
+      "description": "Why AI is shifting from answering questions to completing tasks, and what that means for engineers."
+    },
+    {
+      "id": "S02",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Prompt Engineering That Actually Works",
+      "speaker": "Arjun Patel",
+      "tags": [
+        "llm",
+        "prompting"
+      ],
+      "level": "Beginner",
+      "description": "Practical patterns for clear, testable prompts, with live before and after examples."
+    },
+    {
+      "id": "S03",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Room 102",
+      "track": "Healthcare",
+      "title": "AI-Assisted Triage in Rural Clinics",
+      "speaker": "Dr. Lena Okafor",
+      "tags": [
+        "healthcare",
+        "ai"
+      ],
+      "level": "Intermediate",
+      "description": "Lessons from deploying a decision-support tool in low-connectivity clinics."
+    },
+    {
+      "id": "S04",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "11:00",
+      "end": "11:45",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Tool Use: Teaching LLMs to Call Functions",
+      "speaker": "Sofia Martinez",
+      "tags": [
+        "agents",
+        "tools",
+        "llm"
+      ],
+      "level": "Intermediate",
+      "description": "How models choose tools, pass arguments, and recover when a tool fails."
+    },
+    {
+      "id": "S05",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "11:30",
+      "end": "12:15",
+      "room": "Room 103",
+      "track": "Security",
+      "title": "Securing Agentic Systems Against Prompt Injection",
+      "speaker": "Kenji Watanabe",
+      "tags": [
+        "security",
+        "agents"
+      ],
+      "level": "Intermediate",
+      "description": "Threat models for agents that read untrusted data, with practical defenses."
+    },
+    {
+      "id": "S06",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "13:30",
+      "end": "14:15",
+      "room": "Room 102",
+      "track": "Healthcare",
+      "title": "Privacy-Preserving Machine Learning for Health Records",
+      "speaker": "Dr. Priya Raman",
+      "tags": [
+        "healthcare",
+        "privacy",
+        "data"
+      ],
+      "level": "Advanced",
+      "description": "Federated learning and differential privacy applied to clinical data."
+    },
+    {
+      "id": "S07",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "13:30",
+      "end": "14:15",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Retrieval-Augmented Generation from Scratch",
+      "speaker": "Daniel Kim",
+      "tags": [
+        "rag",
+        "llm",
+        "data"
+      ],
+      "level": "Beginner",
+      "description": "Build a small RAG pipeline and see why grounding reduces hallucinations."
+    },
+    {
+      "id": "S08",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "Room 103",
+      "track": "Cloud",
+      "title": "Serverless Architectures for AI Workloads",
+      "speaker": "Rachel Thompson",
+      "tags": [
+        "cloud",
+        "serverless"
+      ],
+      "level": "Intermediate",
+      "description": "Cost and latency tradeoffs when running inference on serverless platforms."
+    },
+    {
+      "id": "S09",
+      "day": "Thursday",
+      "date": "2026-10-22",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "Grand Ballroom",
+      "track": "Panel",
+      "title": "Panel: Responsible AI in Practice",
+      "speaker": "Moderated by Dr. Omar Haddad",
+      "tags": [
+        "ethics",
+        "responsible-ai"
+      ],
+      "level": "All levels",
+      "description": "Industry and academic voices on governance, fairness, and accountability."
+    },
+    {
+      "id": "S10",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "Grand Ballroom",
+      "track": "Keynote",
+      "title": "Keynote: Technology for Global Good",
+      "speaker": "Dr. Elena Rossi",
+      "tags": [
+        "keynote",
+        "sustainability"
+      ],
+      "level": "All levels",
+      "description": "How emerging technology can address climate, health, and education challenges."
+    },
+    {
+      "id": "S11",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Multi-Agent Systems: When One Agent Is Not Enough",
+      "speaker": "Wei Zhang",
+      "tags": [
+        "agents",
+        "multi-agent"
+      ],
+      "level": "Intermediate",
+      "description": "Planner, worker, and critic patterns, and when to avoid multi-agent designs."
+    },
+    {
+      "id": "S12",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "10:15",
+      "end": "11:00",
+      "room": "Room 102",
+      "track": "Education",
+      "title": "AI Tutors in the Classroom",
+      "speaker": "Grace Mensah",
+      "tags": [
+        "education",
+        "llm"
+      ],
+      "level": "Beginner",
+      "description": "Evidence from pilot programs using AI tutors in secondary schools."
+    },
+    {
+      "id": "S13",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "11:00",
+      "end": "11:45",
+      "room": "Room 103",
+      "track": "IoT",
+      "title": "Edge AI for Smart Agriculture",
+      "speaker": "Carlos Mendoza",
+      "tags": [
+        "iot",
+        "edge",
+        "sustainability"
+      ],
+      "level": "Intermediate",
+      "description": "Running compact models on field sensors to cut water use."
+    },
+    {
+      "id": "S14",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "11:15",
+      "end": "12:00",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Evaluating LLM Applications",
+      "speaker": "Hannah Becker",
+      "tags": [
+        "evaluation",
+        "llm",
+        "agents"
+      ],
+      "level": "Intermediate",
+      "description": "Building test sets and automated checks for LLM and agent behavior."
+    },
+    {
+      "id": "S15",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "13:30",
+      "end": "14:15",
+      "room": "Room 102",
+      "track": "Security",
+      "title": "Zero Trust for Machine Identities",
+      "speaker": "Marcus Johnson",
+      "tags": [
+        "security",
+        "cloud"
+      ],
+      "level": "Advanced",
+      "description": "Managing credentials for services, bots, and AI agents at scale."
+    },
+    {
+      "id": "S16",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "13:30",
+      "end": "14:15",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Memory in AI Agents: Short-Term, Long-Term, and Shared",
+      "speaker": "Aisha Khan",
+      "tags": [
+        "agents",
+        "memory"
+      ],
+      "level": "Intermediate",
+      "description": "Design choices for what agents remember, and the risks of remembering too much."
+    },
+    {
+      "id": "S17",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "14:30",
+      "end": "15:15",
+      "room": "Room 103",
+      "track": "Healthcare",
+      "title": "Wearables and Early Disease Detection",
+      "speaker": "Dr. Thomas Lee",
+      "tags": [
+        "healthcare",
+        "iot"
+      ],
+      "level": "Intermediate",
+      "description": "Signal processing and ML on wearable data for early warning systems."
+    },
+    {
+      "id": "S18",
+      "day": "Friday",
+      "date": "2026-10-23",
+      "start": "15:30",
+      "end": "16:15",
+      "room": "Grand Ballroom",
+      "track": "Workshop",
+      "title": "Hands-On: Build Your First Data Dashboard",
+      "speaker": "Nina Petrova",
+      "tags": [
+        "data",
+        "visualization"
+      ],
+      "level": "Beginner",
+      "description": "Bring a laptop and build an interactive dashboard from a public dataset."
+    },
+    {
+      "id": "S19",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "09:00",
+      "end": "09:45",
+      "room": "Grand Ballroom",
+      "track": "Keynote",
+      "title": "Keynote: The Next Decade of Computing",
+      "speaker": "Dr. Samuel Adeyemi",
+      "tags": [
+        "keynote",
+        "quantum",
+        "cloud"
+      ],
+      "level": "All levels",
+      "description": "Quantum, neuromorphic, and cloud trends that will shape the next ten years."
+    },
+    {
+      "id": "S20",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Hallucinations: Causes, Detection, and Mitigation",
+      "speaker": "Laura Chen",
+      "tags": [
+        "llm",
+        "reliability",
+        "evaluation"
+      ],
+      "level": "Intermediate",
+      "description": "Why models make things up and the engineering patterns that reduce it."
+    },
+    {
+      "id": "S21",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "10:00",
+      "end": "10:45",
+      "room": "Room 103",
+      "track": "Quantum",
+      "title": "Quantum Computing for Software Engineers",
+      "speaker": "Ivan Volkov",
+      "tags": [
+        "quantum"
+      ],
+      "level": "Beginner",
+      "description": "A gentle introduction to qubits, gates, and where quantum may help."
+    },
+    {
+      "id": "S22",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "11:00",
+      "end": "11:45",
+      "room": "Room 102",
+      "track": "Ethics",
+      "title": "Bias Audits for AI Systems",
+      "speaker": "Fatima Al-Sayed",
+      "tags": [
+        "ethics",
+        "responsible-ai",
+        "evaluation"
+      ],
+      "level": "Intermediate",
+      "description": "A practical checklist for auditing datasets and model outputs."
+    },
+    {
+      "id": "S23",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "11:00",
+      "end": "11:45",
+      "room": "Room 101",
+      "track": "AI/ML",
+      "title": "Orchestrating Agents in Production",
+      "speaker": "Ben Carter",
+      "tags": [
+        "agents",
+        "orchestration",
+        "reliability"
+      ],
+      "level": "Advanced",
+      "description": "Retries, timeouts, observability, and human-in-the-loop for agent workflows."
+    },
+    {
+      "id": "S24",
+      "day": "Saturday",
+      "date": "2026-10-24",
+      "start": "13:30",
+      "end": "14:15",
+      "room": "Grand Ballroom",
+      "track": "Closing",
+      "title": "Closing Session and Best Paper Awards",
+      "speaker": "Conference Committee",
+      "tags": [
+        "closing"
+      ],
+      "level": "All levels",
+      "description": "Highlights from the conference and awards for outstanding papers."
+    }
+  ]
+}

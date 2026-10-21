@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Presenter-only notes: keep them out of the participant repo
+facilitator/
+presenter-pack/
